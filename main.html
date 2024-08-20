@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Anilu Track</title>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="logo de la compañia" class="nombre-empresa">
+                <h2>ANILU TRACK</h2>
+    
+        </div>
+            
+            
+            <ul class = "menu active" id="menu">
+                <a href="tips.html" class="link_navegador">Tips</a>
+                <a href="historias-de-exito.html" class="link_navegador">Historias de éxito</a>
+                <a href="nosotros.html" class="link_navegador">Nosotoros</a>
+            </ul>
+
+            
+            <button id="burger-btn" class="burger-btn">
+                <span class="burger-icon"></span>
+              </button>
+        
+        
+    </header>
+    <main>
+        <div>
+            <section>
+                <div class="mujer">
+                    <img src="mujer_ejercicio.avif" alt="">   
+                </div>
+            </section>
+            <aside>
+                <div class="laurita">
+                    <h2>Laura Ximenez</h1>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nihil odio cupiditate consequuntur expedita, atque, voluptatibus sint suscipit nesciunt nostrum deleniti exercitationem voluptates enim ab laboriosam similique. Reiciendis, nobis odit.
+                </div>
+                
+            
+            </aside>
+            <form >
+                <div>
+                    <label for="">
+                        Escribe tu nombre</label>
+                        <br>
+                        <br>
+                    <input type="text" placeholder="Escribe tu nombre">
+                </div>
+                <div>
+                    <a href="#">
+                        Ya tienes una cuenta?
+                    </a>
+                    <br>
+                    <br>
+        
+                    <a href="#">
+                        Olvidaste tu contraseña?
+                    </a>                 
+
+                </div>
+                              
+            </form>
+            <div class="container">
+                <button id="miBoton" class="button">Iniciar sesion</button>
+            </div>
+        </div>
+        
+    </main>
+    <section>
+        <div class="laurita">
+            <h3>¡Es momento de comenzar el desafio!</h3>
+            <h4>Ya puedes trazar tus rutas</h4>
+         </div>
+        <div id="map"></div>
+
+    <!-- Agrega la API de Google Maps con tu clave de API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBMuXv2Lrnm911rAhTGJzH1og7udgw4Ok&callback=initMap" async defer></script>
+    </section>
+    <footer>
+         <div>
+            
+            <h5>Para mas informacion recuerda seguirnos en nuestras redes</h5>
+            
+         </div>
+         <div class="redes">
+            <nav>
+                <a href="" class="link-red1">Instagram</a>
+                <a href="" class="link-red2">Facebook</a>
+                <a href="" class="link-red3">X</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="funciones.js"></script>
+</body>
+</html>

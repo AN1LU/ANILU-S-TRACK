@@ -10,4 +10,5 @@ En esta evidencia se presenta la vista para navegador web desarrollada, así mis
 Para este proyecto utilicé HTML y CSS para darle estilo al sitio web. Es compatible con los buscadores Google Chrome, Edge, Mozilla Firefox, Safari y Opera debido al tipo de animaciones en las vistas. 
 
 ### Vista ejemplo
-https://github.com/AN1LU/ANILU-S-TRACK/blob/main/image.png 
+<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/410aaef3-dbbe-4c92-8afa-115e23a3a26e" />
+
